@@ -1,0 +1,29 @@
+
+.parent{
+margin-top:50px;
+margin-bottom:300px;
+margin-right:150px;
+margin-left:150px;
+height:300px;
+width:400px;
+border-width: 2px; /* Set the thickness of the border */
+border-style: solid; /* Specify the border style */
+padding-left:300px;
+padding-right:300px;
+padding-bottom:500px;
+padding-top:50px;
+}    
+.div1{
+    align-items:center;
+ background-color: antiquewhite;
+ width:400px;
+ height:300px;
+padding-top:50px;
+}
+h1{
+    color:rgba(185, 70, 70, 0.913);
+}
+h6{
+    
+    color:black;
+}
