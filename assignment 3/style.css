@@ -1,29 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.parent{
-margin-top:50px;
-margin-bottom:300px;
-margin-right:150px;
-margin-left:150px;
-height:300px;
-width:400px;
-border-width: 2px; /* Set the thickness of the border */
-border-style: solid; /* Specify the border style */
-padding-left:300px;
-padding-right:300px;
-padding-bottom:500px;
-padding-top:50px;
-}    
-.div1{
-    align-items:center;
- background-color: antiquewhite;
- width:400px;
- height:300px;
-padding-top:50px;
+/* Container to center the hero section */
+.parent-container {
+    margin: 100px;
+    /* Space outside the container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
 }
-h1{
-    color:rgba(185, 70, 70, 0.913);
+
+/* Hero section styling */
+.hero-section {
+    width: 100vw;
+    height: 80vh;
+    background-color: #F3EED9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-h6{
-    
-    color:black;
+
+/* Content styling */
+.content {
+    text-align: center;
+}
+
+/* Heading styles */
+h1 {
+    color: rgba(185, 70, 70, 0.913);
+}
+
+h6 {
+    color: black;
 }
